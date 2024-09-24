@@ -1,0 +1,39 @@
+
+.text-outline-dark {
+	color: #fff;
+	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: #333;
+}
+
+
+.text-outline-white {
+	color: #333;
+	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: #fff;
+} 
+
+#skills {
+	display: flex;
+	/*justify-content: center;*/
+	flex-wrap: wrap;
+}
+
+#card {
+	height: 100px;
+	width: 80px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: #d9d9d9;
+	border-radius: 10px;
+	margin:10px 10px;
+}
+
+#card:hover {
+	cursor: pointer;
+}
+
+#card img {
+	width: 70px;
+}
+
